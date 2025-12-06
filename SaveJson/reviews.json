@@ -1,0 +1,29 @@
+[
+  {
+    "id": "5d4739c4-61df-41ff-a9ad-37928196bca4",
+    "recommendation_id": "8501c6dc-7a51-4cd0-bbcf-5d82d9ea0782",
+    "role": "mine_planner",
+    "reviewer_name": "ryan",
+    "action": "approve",
+    "comments": "lanjutkan",
+    "timestamp": "2025-11-14T04:12:08.207834"
+  },
+  {
+    "id": "715f5d00-25fc-4cb5-96ca-682a68c38ffd",
+    "recommendation_id": "8501c6dc-7a51-4cd0-bbcf-5d82d9ea0782",
+    "role": "shipping_planner",
+    "reviewer_name": "dela",
+    "action": "approve",
+    "comments": "lanjutkan",
+    "timestamp": "2025-11-14T04:13:38.851808"
+  },
+  {
+    "id": "9b4fe9a1-74cb-4f27-bd4d-a535728f08c1",
+    "recommendation_id": "bab5195f-3119-4c62-b3e3-90f2c43a7b4a",
+    "role": "mine_planner",
+    "reviewer_name": "gaya",
+    "action": "approve",
+    "comments": "lanjutkan",
+    "timestamp": "2025-11-14T04:28:30.439079"
+  }
+]

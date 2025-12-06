@@ -1,0 +1,289 @@
+[
+  {
+    "id": "8501c6dc-7a51-4cd0-bbcf-5d82d9ea0782",
+    "timestamp": "2025-11-13 11:18:48",
+    "model": "weather",
+    "prediction": "Safe",
+    "probabilities": {
+      "Caution": 0.28,
+      "High Risk": 0.22,
+      "Safe": 0.5
+    },
+    "sorted_labels": [
+      "Safe",
+      "Caution",
+      "High Risk"
+    ],
+    "inputs": {
+      "Temperature_C": 30.5,
+      "Humidity_Percent": 78.0,
+      "Rainfall_mm": 5.2,
+      "Wind_Speed_mps": 3.4,
+      "Wind_Direction_deg": 120.0,
+      "Visibility_km": 8.5,
+      "Pressure_hPa": 1010.0,
+      "Sea_State_Level": 2.0,
+      "Wave_Height_m": 1.2,
+      "Tide_Level_m": 0.6,
+      "Storm_Warning": 0.0,
+      "Weather_Condition": "Clear"
+    },
+    "recommendations": {
+      "error": "Gemini tidak mengembalikan JSON valid",
+      "raw": "```json\n{\n  \"primary\": [\n    {\n      \"action\": \"Lanjutkan operasi sesuai rencana.\",\n      \"justification\": \"Probabilitas 'Safe' untuk kondisi cuaca adalah yang tertinggi (50%). Kondisi cuaca saat ini mendukung kelancaran operasi dengan suhu, kelembaban, curah hujan, dan kecepatan angin yang relatif moderat.\",\n      \"expected_impact\": \"Operasi berjalan lancar dan sesuai jadwal tanpa hambatan signifikan akibat cuaca.\"\n    },\n    {\n      \"action\": \"Pantau terus perkiraan cuaca.\",\n      \"justification\": \"Meskipun probabilitas 'Safe' tertinggi, probabilitas 'Caution' cukup signifikan (28%). Perubahan mendadak dalam cuaca dapat mempengaruhi operasi.\",\n      \"expected_impact\": \"Identifikasi dini potensi perubahan cuaca dan penyesuaian rencana jika diperlukan.\"\n    },\n    {\n      \"action\": \"Pastikan semua peralatan dan personel siap digunakan.\",\n      \"justification\": \"Kesiapan operasional penting untuk memaksimalkan efisiensi dan keamanan operasi.\",\n      \"expected_impact\": \"Meminimalkan waktu henti dan memastikan respons cepat terhadap masalah apa pun.\"\n    }\n  ],\n  \"alternative\": [\n    {\n      \"action\": \"Jika cuaca memburuk mendekati ambang 'Caution', bersiaplah untuk menyesuaikan jadwal operasi.\",\n      \"justification\": \"Probabilitas 'Caution' 28% menunjukkan kemungkinan perubahan cuaca yang memerlukan penyesuaian.\",\n      \"expected_impact\": \"Menghindari penundaan yang tidak perlu dan memastikan operasi tetap aman jika cuaca memburuk.\"\n    },\n    {\n      \"action\": \"Siapkan rencana alternatif untuk kegiatan di luar ruangan jika curah hujan meningkat.\",\n      \"justification\": \"Curah hujan saat ini relatif rendah, tetapi peningkatan dapat mengganggu aktivitas di luar ruangan.\",\n      \"expected_impact\": \"Meminimalkan dampak peningkatan curah hujan pada produktivitas dan efisiensi.\"\n    },\n    {\n      \"action\": \"Jika kecepatan angin meningkat signifikan, pertimbangkan untuk menunda operasi yang melibatkan peralatan sensitif terhadap angin.\",\n      \"justification\": \"Kecepatan angin saat ini moderat, tetapi peningkatan dapat membahayakan operasi yang membutuhkan stabilitas.\",\n      \"expected_impact\": \"Mencegah kerusakan peralatan dan memastikan keselamatan personel jika kecepatan angin meningkat.\"\n    }\n  ],\n  \"mitigation\": [\n    {\n      \"action\": \"Siapkan perlengkapan keselamatan tambahan (jas hujan, pelampung, dll.)\",\n      \"justification\": \"Meskipun kondisi saat ini aman, penting untuk memiliki perlengkapan keselamatan yang memadai jika cuaca berubah.\",\n      \"expected_impact\": \"Memastikan keselamatan personel dalam situasi darurat.\"\n    },\n    {\n      \"action\": \"Pastikan semua personel memahami protokol keselamatan dan prosedur darurat.\",\n      \"justification\": \"Kesiapan adalah kunci untuk meminimalkan dampak negatif dari perubahan cuaca yang tiba-tiba.\",\n      \"expected_impact\": \"Respons cepat dan efektif terhadap keadaan darurat, meminimalkan risiko cedera dan kerusakan.\"\n    },\n    {\n      \"action\": \"Periksa dan amankan semua peralatan dan struktur untuk mencegah kerusakan akibat angin atau hujan.\",\n      \"justification\": \"Tindakan pencegahan dapat mengurangi risiko kerusakan properti jika cuaca memburuk.\",\n      \"expected_impact\": \"Meminimalkan kerugian finansial dan gangguan operasional akibat kerusakan properti.\"\n    }\n  ]\n}\n```"
+    },
+    "status": "final_approved",
+    "assigned_reviewers": [
+      "mine_planner",
+      "shipping_planner"
+    ],
+    "version": 3,
+    "review_history": [
+      {
+        "role": "mine_planner",
+        "action": "approve",
+        "comments": "lanjutkan",
+        "timestamp": "2025-11-14T04:12:08.210801"
+      },
+      {
+        "role": "shipping_planner",
+        "action": "approve",
+        "comments": "lanjutkan",
+        "timestamp": "2025-11-14T04:13:38.855094"
+      }
+    ],
+    "last_updated": "2025-11-14T04:13:38.855109"
+  },
+  {
+    "id": "bab5195f-3119-4c62-b3e3-90f2c43a7b4a",
+    "timestamp": "2025-11-13 11:18:48",
+    "model": "road",
+    "prediction": "Operational",
+    "probabilities": {
+      "Closed": 0.32,
+      "Operational": 0.53,
+      "Severely Damaged": 0.15
+    },
+    "sorted_labels": [
+      "Operational",
+      "Closed",
+      "Severely Damaged"
+    ],
+    "inputs": {
+      "Surface_Type": "Asphalt",
+      "Surface_Condition": "Wet",
+      "Pothole_Density": 0.3,
+      "Slope_Angle_Degrees": 5.0,
+      "Traffic_Density": 0.7,
+      "Flood_Level_m": 0.1,
+      "Access_Status": "Open",
+      "Dust_Level_PPM": 45.0,
+      "Ground_Vibration_mm_s": 2.1,
+      "Road_Temperature_C": 35.0,
+      "Rainfall_mm": 4.5,
+      "Soil_Moisture_%": 35.0,
+      "Maintenance_Activity": 0.0,
+      "Accident_Count": 1.0
+    },
+    "recommendations": {
+      "error": "Gemini tidak mengembalikan JSON valid",
+      "raw": "```json\n{\n  \"primary\": [\n    {\n      \"action\": \"Lanjutkan operasi dengan pemantauan ketat.\",\n      \"justification\": \"Probabilitas jalan beroperasi paling tinggi (53%) dan kondisi saat ini (permukaan basah, lalu lintas padat) masih memungkinkan operasi.\",\n      \"expected_impact\": \"Memastikan kelancaran operasi dengan risiko minimal.\"\n    },\n    {\n      \"action\": \"Perlambat kecepatan kendaraan.\",\n      \"justification\": \"Permukaan jalan basah meningkatkan risiko kecelakaan.\",\n      \"expected_impact\": \"Mengurangi risiko kecelakaan dan meningkatkan keselamatan.\"\n    },\n    {\n      \"action\": \"Tingkatkan kewaspadaan pengemudi terhadap kondisi jalan.\",\n      \"justification\": \"Permukaan basah dan potensi lubang meningkatkan risiko.\",\n      \"expected_impact\": \"Meminimalkan risiko kecelakaan akibat kondisi jalan.\"\n    }\n  ],\n  \"alternative\": [\n    {\n      \"action\": \"Jika curah hujan meningkat secara signifikan, pertimbangkan penundaan operasi sementara.\",\n      \"justification\": \"Curah hujan 4.5 mm dapat meningkat dan membahayakan operasi jika terus berlanjut.\",\n      \"expected_impact\": \"Mencegah kondisi jalan memburuk dan membahayakan operasi.\"\n    },\n    {\n      \"action\": \"Siapkan rute alternatif jika lalu lintas menjadi terlalu padat atau terjadi kemacetan.\",\n      \"justification\": \"Kepadatan lalu lintas 0.7 dapat meningkat dan menghambat operasi.\",\n      \"expected_impact\": \"Memastikan operasi tetap berjalan meskipun terjadi gangguan lalu lintas.\"\n    },\n    {\n      \"action\": \"Siapkan tim tanggap darurat jika terjadi kecelakaan tambahan.\",\n      \"justification\": \"Sudah ada 1 kecelakaan yang tercatat.\",\n      \"expected_impact\": \"Meminimalkan dampak kecelakaan terhadap operasi.\"\n    }\n  ],\n  \"mitigation\": [\n    {\n      \"action\": \"Pantau ketinggian air banjir secara berkala.\",\n      \"justification\": \"Ketinggian air 0.1m berpotensi naik jika curah hujan terus meningkat.\",\n      \"expected_impact\": \"Mencegah jalan menjadi tidak dapat dilalui karena banjir.\"\n    },\n    {\n      \"action\": \"Periksa kondisi lubang secara berkala dan lakukan perbaikan jika diperlukan.\",\n      \"justification\": \"Kepadatan lubang 0.3 dapat menyebabkan kerusakan pada kendaraan.\",\n      \"expected_impact\": \"Mengurangi risiko kerusakan kendaraan dan kecelakaan.\"\n    },\n    {\n      \"action\": \"Semprotkan air untuk mengurangi debu jika tingkat debu terus meningkat.\",\n      \"justification\": \"Tingkat debu 45 PPM berpotensi mengganggu visibilitas.\",\n      \"expected_impact\": \"Meningkatkan visibilitas dan keselamatan.\"\n    },\n        {\n      \"action\": \"Pastikan drainase berfungsi dengan baik untuk mencegah genangan air.\",\n      \"justification\": \"Drainase yang buruk dapat memperburuk kondisi jalan basah dan menyebabkan banjir.\",\n      \"expected_impact\": \"Mengurangi risiko kecelakaan dan kerusakan infrastruktur.\"\n    }\n  ]\n}\n```"
+    },
+    "status": "pending_review_shipping_planner",
+    "assigned_reviewers": [
+      "mine_planner",
+      "shipping_planner"
+    ],
+    "version": 2,
+    "review_history": [
+      {
+        "role": "mine_planner",
+        "action": "approve",
+        "comments": "lanjutkan",
+        "timestamp": "2025-11-14T04:28:30.442402"
+      }
+    ],
+    "last_updated": "2025-11-14T04:28:30.442417"
+  },
+  {
+    "id": "ca35ce5f-502c-4f82-8464-7eece5058eeb",
+    "timestamp": "2025-11-13 11:18:48",
+    "model": "equipment",
+    "prediction": 0,
+    "probabilities": {
+      "0": 0.88,
+      "1": 0.12
+    },
+    "sorted_labels": [
+      "0",
+      "1"
+    ],
+    "inputs": {
+      "Machine_Type": "Excavator",
+      "Engine_Temperature_C": 82.0,
+      "Oil_Pressure_Bar": 4.2,
+      "Fuel_Level_Percent": 65.0,
+      "Engine_RPM": 1800.0,
+      "Vibration_Level_g": 0.8,
+      "Hydraulic_Pressure_Bar": 210.0,
+      "Working_Hours": 6.5,
+      "Maintenance_Status": "OK",
+      "Fault_Code": 0.0,
+      "Operational_Mode": "Active",
+      "Ambient_Temperature_C": 32.0,
+      "Gear_Position": 3.0,
+      "Fuel_Consumption_L_h": 12.5,
+      "Torque_Nm": 450.0,
+      "Engine_Load_Percent": 78.0
+    },
+    "recommendations": {
+      "error": "Gemini tidak mengembalikan JSON valid",
+      "raw": "```json\n{\n  \"primary\": [\n    {\n      \"action\": \"Lanjutkan operasional dengan pemantauan ketat.\",\n      \"justification\": \"Probabilitas prediksi menunjukkan kondisi peralatan normal (88%). Kondisi operasional mesin (Engine_Temperature, Oil_Pressure, Fuel_Level, Engine_RPM, Vibration_Level, Hydraulic_Pressure) berada dalam batas wajar.\",\n      \"expected_impact\": \"Memastikan kelancaran operasional dan memaksimalkan output produksi.\"\n    },\n    {\n      \"action\": \"Periksa kembali sensor dan data telemetri secara berkala.\",\n      \"justification\": \"Memastikan akurasi data sensor dan mencegah kesalahan interpretasi terhadap kondisi peralatan.\",\n      \"expected_impact\": \"Deteksi dini potensi masalah dan meminimalkan downtime.\"\n    },\n    {\n      \"action\": \"Pastikan jadwal perawatan preventif dijalankan sesuai rekomendasi pabrikan.\",\n      \"justification\": \"Mempertahankan kondisi peralatan dalam kondisi optimal dan memperpanjang umur pakai.\",\n      \"expected_impact\": \"Mengurangi risiko kerusakan dan biaya perbaikan tak terduga.\"\n    }\n  ],\n  \"alternative\": [\n    {\n      \"action\": \"Jika terjadi perubahan signifikan pada parameter operasional, hentikan sementara dan lakukan inspeksi.\",\n      \"justification\": \"Meskipun probabilitas rendah, kegagalan (12%) tetap ada. Perubahan mendadak mungkin mengindikasikan masalah.\",\n      \"expected_impact\": \"Mencegah kerusakan lebih lanjut dan melindungi operator.\"\n    },\n    {\n      \"action\": \"Lakukan analisis oli secara berkala untuk mendeteksi potensi kontaminasi atau keausan dini.\",\n      \"justification\": \"Analisis oli dapat memberikan indikasi awal masalah internal mesin yang mungkin tidak terdeteksi oleh sensor standar.\",\n      \"expected_impact\": \"Identifikasi dini masalah dan memungkinkan tindakan perbaikan sebelum kerusakan parah.\"\n    },\n    {\n      \"action\": \"Periksa dan kalibrasi sensor utama (suhu mesin, tekanan oli, dll.) secara berkala.\",\n      \"justification\": \"Sensor yang tidak akurat dapat memberikan pembacaan yang salah dan menyebabkan pengambilan keputusan yang buruk.\",\n      \"expected_impact\": \"Memastikan data yang akurat dan andal untuk pemantauan kondisi.\"\n    }\n  ],\n  \"mitigation\": [\n    {\n      \"action\": \"Siapkan peralatan cadangan dan suku cadang penting.\",\n      \"justification\": \"Meminimalkan downtime jika terjadi kerusakan tak terduga.\",\n      \"expected_impact\": \"Mempercepat proses perbaikan dan melanjutkan operasional secepat mungkin.\"\n    },\n    {\n      \"action\": \"Pastikan operator terlatih dengan baik dalam mengoperasikan dan memantau peralatan.\",\n      \"justification\": \"Operator yang terlatih dapat mendeteksi masalah sejak dini dan mengambil tindakan yang tepat.\",\n      \"expected_impact\": \"Mengurangi risiko kerusakan akibat kesalahan pengoperasian.\"\n    },\n    {\n      \"action\": \"Buat rencana darurat jika terjadi kegagalan peralatan yang signifikan.\",\n      \"justification\": \"Meminimalkan dampak operasional jika terjadi downtime yang lama.\",\n      \"expected_impact\": \"Memastikan kelangsungan bisnis dan mengurangi kerugian finansial.\"\n    }\n  ]\n}\n```"
+    },
+    "status": "pending_review_mine_planner",
+    "assigned_reviewers": [
+      "mine_planner",
+      "shipping_planner"
+    ],
+    "version": 1,
+    "review_history": []
+  },
+  {
+    "id": "c64ac15a-28dc-49c8-bbe8-52ce085ca967",
+    "timestamp": "2025-11-13 11:18:48",
+    "model": "vessel",
+    "prediction": "On Time",
+    "probabilities": {
+      "Late": 0.35,
+      "On Time": 0.45,
+      "Weather Delay": 0.2
+    },
+    "sorted_labels": [
+      "On Time",
+      "Late",
+      "Weather Delay"
+    ],
+    "inputs": {
+      "Delay_Minutes": 15.0,
+      "Cargo_Type": 0.0,
+      "Load_Weight_Tons": 1200.0,
+      "Port_Condition": "Normal",
+      "Weather_Impact_Score": 0.6,
+      "Sea_Condition_Code": "Moderate",
+      "Crew_Availability_Percent": 95.0,
+      "Vessel_Status": 0.0,
+      "Fuel_Consumption_Tons": 20.5,
+      "Engine_RPM": 1600.0,
+      "Distance_Traveled_km": 320.0,
+      "Average_Speed_knots": 14.0,
+      "Departure_Hour": 8.0,
+      "Departure_Weekday": 3.0,
+      "Departure_Month": 11.0,
+      "Planned_Duration_hours": 10.0
+    },
+    "recommendations": {
+      "error": "Gemini tidak mengembalikan JSON valid",
+      "raw": "```json\n{\n  \"primary\": [\n    {\n      \"action\": \"Monitor vessel progress closely.\",\n      \"justification\": \"The model predicts 'On Time' with the highest probability (45%). Close monitoring ensures any deviation from the planned schedule is identified early.\",\n      \"expected_impact\": \"Early detection of potential delays and proactive response to maintain schedule.\"\n    },\n    {\n      \"action\": \"Verify port readiness at destination.\",\n      \"justification\": \"Ensuring the destination port is ready to receive the vessel minimizes turnaround time and prevents potential delays upon arrival.\",\n      \"expected_impact\": \"Reduced port turnaround time and optimized vessel operation.\"\n    }\n  ],\n  \"alternative\": [\n    {\n      \"action\": \"Review potential route optimizations for improved speed.\",\n      \"justification\": \"Although predicted 'On Time', there is a significant chance of 'Late' (35%). Route optimization can potentially reduce travel time.\",\n      \"expected_impact\": \"Potential reduction in travel time and improved on-time arrival probability.\"\n    },\n    {\n      \"action\": \"Prepare backup plan for cargo handling equipment at destination.\",\n      \"justification\": \"Anticipating potential equipment unavailability prevents delays in unloading cargo.\",\n      \"expected_impact\": \"Minimized delays related to cargo handling at the destination port.\"\n    }\n  ],\n  \"mitigation\": [\n    {\n      \"action\": \"Monitor weather forecasts along the planned route frequently.\",\n      \"justification\": \"There is a 20% chance of 'Weather Delay'. Proactive monitoring allows for early adjustments to the route or speed.\",\n      \"expected_impact\": \"Early detection of adverse weather and proactive route adjustments to minimize weather-related delays.\"\n    },\n    {\n      \"action\": \"Ensure sufficient fuel reserves are available to increase speed if needed.\",\n      \"justification\": \"If weather conditions deteriorate or delays occur, the vessel may need to increase speed to maintain schedule. The provided data indicates fuel consumption and planned duration.\",\n      \"expected_impact\": \"Flexibility to adjust speed and maintain schedule in response to unforeseen circumstances.\"\n    },\n    {\n      \"action\": \"Confirm crew rest periods are being strictly adhered to.\",\n      \"justification\": \"Maintaining crew alertness is crucial for safe and efficient navigation, especially in moderate sea conditions (Sea_Condition_Code).\",\n      \"expected_impact\": \"Reduced risk of human error and improved vessel safety.\"\n    }\n  ]\n}\n```"
+    },
+    "status": "pending_review_mine_planner",
+    "assigned_reviewers": [
+      "mine_planner",
+      "shipping_planner"
+    ],
+    "version": 1,
+    "review_history": []
+  },
+  {
+    "id": "ac016ce4-88d8-44d2-b9d0-9097972a229b",
+    "timestamp": "2025-11-13 11:18:48",
+    "model": "logistics",
+    "prediction": "Low",
+    "probabilities": {
+      "High": 0.23,
+      "Low": 0.43,
+      "Medium": 0.34
+    },
+    "sorted_labels": [
+      "Low",
+      "Medium",
+      "High"
+    ],
+    "inputs": {
+      "Date": 0.0,
+      "Route_Code": 0.0,
+      "Origin_Location": 0.0,
+      "Destination_Location": 0.0,
+      "Cargo_Type": 0.0,
+      "Cargo_Weight_Tons": 35.0,
+      "Transport_Mode": "Truck",
+      "Distance_km": 470.0,
+      "Travel_Time_hr": 9.5,
+      "Actual_Travel_Time_hr": 10.2,
+      "Fuel_Used_Liters": 220.0,
+      "Fuel_Cost_USD": 180.0,
+      "Delivery_Status": "Completed",
+      "Delay_Cause": "Traffic",
+      "CO2_Emission_kg": 75.0
+    },
+    "recommendations": {
+      "error": "Gemini tidak mengembalikan JSON valid",
+      "raw": "```json\n{\n  \"primary\": [\n    {\n      \"action\": \"Optimize routing based on real-time traffic data.\",\n      \"justification\": \"The model suggests a 'Low' probability of logistics issues, but 'Traffic' was the Delay_Cause. Real-time routing can mitigate traffic delays.\",\n      \"expected_impact\": \"Reduce travel time and fuel consumption by avoiding congested areas.\"\n    },\n    {\n      \"action\": \"Schedule deliveries during off-peak hours.\",\n      \"justification\": \"Minimize the impact of potential traffic congestion, even if the probability is currently low.\",\n      \"expected_impact\": \"Reduce the likelihood of delays caused by traffic and improve delivery schedule adherence.\"\n    },\n    {\n      \"action\": \"Maintain clear communication channels with the driver.\",\n      \"justification\": \"Facilitate proactive problem-solving and timely updates on potential delays or issues.\",\n      \"expected_impact\": \"Improved real-time visibility of the transport and issues.\"\n    }\n  ],\n  \"alternative\": [\n    {\n      \"action\": \"Explore alternative transport modes if feasible (e.g., rail for long distances).\",\n      \"justification\": \"Diversifying transport modes can reduce reliance on a single mode and mitigate risks associated with it.\",\n      \"expected_impact\": \"Provide transport alternatives in case of traffic or road closures.\"\n    },\n    {\n      \"action\": \"Negotiate flexible delivery windows with the destination location.\",\n      \"justification\": \"Buffer against potential delays and improve overall delivery performance, especially considering the Travel_Time_hr vs Actual_Travel_Time_hr difference.\",\n      \"expected_impact\": \"Reduce the pressure on meeting strict deadlines and increase customer satisfaction.\"\n    }\n  ],\n  \"mitigation\": [\n    {\n      \"action\": \"Implement a proactive vehicle maintenance schedule.\",\n      \"justification\": \"Prevent mechanical breakdowns that could lead to delays, regardless of the current low probability.\",\n      \"expected_impact\": \"Minimize the risk of vehicle-related delays and ensure reliable transportation.\"\n    },\n    {\n      \"action\": \"Monitor weather conditions along the route and prepare for potential disruptions.\",\n      \"justification\": \"While the model predicts 'Low', weather can change rapidly. Monitoring allows for proactive adjustments to avoid delays.\",\n      \"expected_impact\": \"Reduce impact of unexpected weather and improve transport reliability.\"\n    },\n    {\n      \"action\": \"Diversify the carrier pool.\",\n      \"justification\": \"Reduces the risk of service disruption if one carrier faces unforeseen challenges.\",\n      \"expected_impact\": \"Provides options for transport to ensure continued delivery of cargo\"\n    }\n  ]\n}\n```"
+    },
+    "status": "pending_review_mine_planner",
+    "assigned_reviewers": [
+      "mine_planner",
+      "shipping_planner"
+    ],
+    "version": 1,
+    "review_history": []
+  },
+  {
+    "id": "87d1bd7d-3475-44a1-9d9a-a84dbef37fb8",
+    "timestamp": "2025-11-13 11:18:49",
+    "model": "production",
+    "prediction": "Low",
+    "probabilities": {
+      "High": 0.11,
+      "Low": 0.55,
+      "Medium": 0.34
+    },
+    "sorted_labels": [
+      "Low",
+      "Medium",
+      "High"
+    ],
+    "inputs": {
+      "Record_Timestamp": 0.0,
+      "Production_ID": 0.0,
+      "Date": 0.0,
+      "Machine_ID": 0.0,
+      "Shift": "Morning",
+      "Operator_ID": 0.0,
+      "Material_Type": "Iron Ore",
+      "Working_Hours": 8.0,
+      "Production_Tons": 420.0,
+      "Fuel_Consumed_Liters": 140.0,
+      "Downtime_Minutes": 25.0,
+      "Weather_Condition": "Sunny",
+      "Road_Condition_Status": "Good",
+      "Equipment_Efficiency_Percent": 88.0,
+      "Fuel_Efficiency_Tons_per_Liter": 3.0,
+      "Incident_Report": 0.0,
+      "Maintenance_Required": 0.0,
+      "CO2_Emission_kg": 65.0,
+      "Production_Cost_USD": 21000.0,
+      "Revenue_USD": 28000.0
+    },
+    "recommendations": {
+      "error": "Gemini tidak mengembalikan JSON valid",
+      "raw": "```json\n{\n  \"primary\": [\n    {\n      \"action\": \"Optimalkan Jadwal Pemeliharaan Mesin\",\n      \"justification\": \"Downtime mesin berkontribusi pada produksi rendah. Pemeliharaan terjadwal dapat mengurangi risiko downtime tak terduga.\",\n      \"expected_impact\": \"Peningkatan ketersediaan mesin dan output produksi.\"\n    },\n    {\n      \"action\": \"Evaluasi dan Tingkatkan Efisiensi Operator\",\n      \"justification\": \"Produksi rendah dapat disebabkan oleh kurangnya keterampilan atau efisiensi operator. Pelatihan dan pemantauan dapat membantu.\",\n      \"expected_impact\": \"Peningkatan keterampilan operator dan efisiensi produksi.\"\n    },\n    {\n      \"action\": \"Pantau Konsumsi Bahan Bakar dan Efisiensi Peralatan\",\n      \"justification\": \"Efisiensi bahan bakar yang rendah dan efisiensi peralatan yang tidak optimal dapat menunjukkan masalah dengan mesin atau proses.\",\n      \"expected_impact\": \"Identifikasi masalah dengan mesin atau proses lebih awal, menurunkan biaya operasional.\"\n    },\n    {\n      \"action\": \"Tinjau Ulang Target Produksi\",\n      \"justification\": \"Target produksi mungkin tidak realistis berdasarkan sumber daya yang ada atau kondisi operasional.\",\n      \"expected_impact\": \"Menetapkan target yang lebih realistis dan dapat dicapai.\"\n    },\n    {\n      \"action\": \"Investigasi Sumber Daya Manusia\",\n      \"justification\": \"Ketahui jumlah operator yang memadai untuk mencapai target produksi\",\n      \"expected_impact\": \"Peningkatan output produksi\"\n    }\n  ],\n  \"alternative\": [\n    {\n      \"action\": \"Gunakan Bahan Baku Alternatif\",\n      \"justification\": \"Mempertimbangkan jenis material (selain Iron Ore) dapat meningkatkan jumlah produksi.\",\n      \"expected_impact\": \"Peningkatan jumlah produksi\"\n    },\n    {\n      \"action\": \"Sesuaikan Jadwal Shift\",\n      \"justification\": \"Jika memungkinkan, optimalkan jadwal shift untuk memanfaatkan waktu produksi yang paling efisien.\",\n      \"expected_impact\": \"Peningkatan output produksi dengan memaksimalkan jam kerja yang efisien.\"\n    },\n    {\n      \"action\": \"Pertimbangkan untuk Meningkatkan Kapasitas Peralatan\",\n      \"justification\": \"Jika permintaan tinggi, berinvestasi pada peralatan yang lebih canggih mungkin diperlukan.\",\n      \"expected_impact\": \"Peningkatan kapasitas produksi jangka panjang.\"\n    },\n    {\n      \"action\": \"Optimasi Produksi di Shift yang Berbeda\",\n      \"justification\": \"Produksi bervariasi di shift yang berbeda. Optimalkan jadwal pemeliharaan dan produksi berdasarkan hal tersebut\",\n      \"expected_impact\": \"Peningkatan penggunaan kapasitas produksi\"\n    }\n  ],\n  \"mitigation\": [\n    {\n      \"action\": \"Diversifikasi Pemasok Bahan Baku\",\n      \"justification\": \"Mengandalkan hanya satu pemasok bahan baku dapat berisiko. Diversifikasi memastikan pasokan yang stabil.\",\n      \"expected_impact\": \"Mengurangi risiko kekurangan bahan baku dan gangguan produksi.\"\n    },\n    {\n      \"action\": \"Siapkan Rencana Kontingensi untuk Gangguan Cuaca\",\n      \"justification\": \"Meskipun cuaca saat ini cerah, selalu siapkan rencana untuk kondisi cuaca buruk yang dapat memengaruhi produksi.\",\n      \"expected_impact\": \"Meminimalkan dampak cuaca buruk pada produksi.\"\n    },\n    {\n      \"action\": \"Tinjau dan Perbarui Laporan Insiden\",\n      \"justification\": \"Pastikan semua insiden dilaporkan dan diselidiki untuk mencegah kejadian serupa di masa mendatang.\",\n      \"expected_impact\": \"Mengurangi risiko insiden dan meningkatkan keselamatan kerja.\"\n    },\n    {\n      \"action\": \"Audit Biaya Produksi\",\n      \"justification\": \"Evaluasi semua biaya produksi untuk mengidentifikasi area di mana biaya dapat dikurangi.\",\n      \"expected_impact\": \"Mengurangi biaya produksi dan meningkatkan profitabilitas.\"\n    },\n    {\n      \"action\": \"Pantau Kondisi Jalan\",\n      \"justification\": \"Kondisi jalan yang baik saat ini dapat berubah. Memantau kondisi jalan penting untuk transportasi.\",\n      \"expected_impact\": \"Memastikan kelancaran transportasi bahan baku dan produk.\"\n    }\n  ]\n}\n```"
+    },
+    "status": "pending_review_mine_planner",
+    "assigned_reviewers": [
+      "mine_planner",
+      "shipping_planner"
+    ],
+    "version": 1,
+    "review_history": []
+  }
+]

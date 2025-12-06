@@ -1,0 +1,330 @@
+[
+    {
+        "Timestamp": "2025-11-13 11:18:48",
+        "Model": "weather",
+        "Prediction": "Safe",
+        "Probabilities": {
+            "Caution": 0.28,
+            "High Risk": 0.22,
+            "Safe": 0.5
+        },
+        "Inputs": {
+            "Temperature_C": 30.5,
+            "Humidity_Percent": 78.0,
+            "Rainfall_mm": 5.2,
+            "Wind_Speed_mps": 3.4,
+            "Wind_Direction_deg": 120.0,
+            "Visibility_km": 8.5,
+            "Pressure_hPa": 1010.0,
+            "Sea_State_Level": 2.0,
+            "Wave_Height_m": 1.2,
+            "Tide_Level_m": 0.6,
+            "Storm_Warning": 0.0,
+            "Weather_Condition": "Clear"
+        }
+    },
+    {
+        "Timestamp": "2025-11-13 11:18:48",
+        "Model": "road",
+        "Prediction": "Operational",
+        "Probabilities": {
+            "Closed": 0.32,
+            "Operational": 0.53,
+            "Severely Damaged": 0.15
+        },
+        "Inputs": {
+            "Surface_Type": "Asphalt",
+            "Surface_Condition": "Wet",
+            "Pothole_Density": 0.3,
+            "Slope_Angle_Degrees": 5.0,
+            "Traffic_Density": 0.7,
+            "Flood_Level_m": 0.1,
+            "Access_Status": "Open",
+            "Dust_Level_PPM": 45.0,
+            "Ground_Vibration_mm_s": 2.1,
+            "Road_Temperature_C": 35.0,
+            "Rainfall_mm": 4.5,
+            "Soil_Moisture_%": 35.0,
+            "Maintenance_Activity": 0.0,
+            "Accident_Count": 1.0
+        }
+    },
+    {
+        "Timestamp": "2025-11-13 11:18:48",
+        "Model": "equipment",
+        "Prediction": 0,
+        "Probabilities": {
+            "0": 0.88,
+            "1": 0.12
+        },
+        "Inputs": {
+            "Machine_Type": "Excavator",
+            "Engine_Temperature_C": 82.0,
+            "Oil_Pressure_Bar": 4.2,
+            "Fuel_Level_Percent": 65.0,
+            "Engine_RPM": 1800.0,
+            "Vibration_Level_g": 0.8,
+            "Hydraulic_Pressure_Bar": 210.0,
+            "Working_Hours": 6.5,
+            "Maintenance_Status": "OK",
+            "Fault_Code": 0.0,
+            "Operational_Mode": "Active",
+            "Ambient_Temperature_C": 32.0,
+            "Gear_Position": 3.0,
+            "Fuel_Consumption_L_h": 12.5,
+            "Torque_Nm": 450.0,
+            "Engine_Load_Percent": 78.0
+        }
+    },
+    {
+        "Timestamp": "2025-11-13 11:18:48",
+        "Model": "vessel",
+        "Prediction": "On Time",
+        "Probabilities": {
+            "Late": 0.35,
+            "On Time": 0.45,
+            "Weather Delay": 0.2
+        },
+        "Inputs": {
+            "Delay_Minutes": 15.0,
+            "Cargo_Type": 0.0,
+            "Load_Weight_Tons": 1200.0,
+            "Port_Condition": "Normal",
+            "Weather_Impact_Score": 0.6,
+            "Sea_Condition_Code": "Moderate",
+            "Crew_Availability_Percent": 95.0,
+            "Vessel_Status": 0.0,
+            "Fuel_Consumption_Tons": 20.5,
+            "Engine_RPM": 1600.0,
+            "Distance_Traveled_km": 320.0,
+            "Average_Speed_knots": 14.0,
+            "Departure_Hour": 8.0,
+            "Departure_Weekday": 3.0,
+            "Departure_Month": 11.0,
+            "Planned_Duration_hours": 10.0
+        }
+    },
+    {
+        "Timestamp": "2025-11-13 11:18:48",
+        "Model": "logistics",
+        "Prediction": "Low",
+        "Probabilities": {
+            "High": 0.23,
+            "Low": 0.43,
+            "Medium": 0.34
+        },
+        "Inputs": {
+            "Date": 0.0,
+            "Route_Code": 0.0,
+            "Origin_Location": 0.0,
+            "Destination_Location": 0.0,
+            "Cargo_Type": 0.0,
+            "Cargo_Weight_Tons": 35.0,
+            "Transport_Mode": "Truck",
+            "Distance_km": 470.0,
+            "Travel_Time_hr": 9.5,
+            "Actual_Travel_Time_hr": 10.2,
+            "Fuel_Used_Liters": 220.0,
+            "Fuel_Cost_USD": 180.0,
+            "Delivery_Status": "Completed",
+            "Delay_Cause": "Traffic",
+            "CO2_Emission_kg": 75.0
+        }
+    },
+    {
+        "Timestamp": "2025-11-13 11:18:49",
+        "Model": "production",
+        "Prediction": "Low",
+        "Probabilities": {
+            "High": 0.11,
+            "Low": 0.55,
+            "Medium": 0.34
+        },
+        "Inputs": {
+            "Record_Timestamp": 0.0,
+            "Production_ID": 0.0,
+            "Date": 0.0,
+            "Machine_ID": 0.0,
+            "Shift": "Morning",
+            "Operator_ID": 0.0,
+            "Material_Type": "Iron Ore",
+            "Working_Hours": 8.0,
+            "Production_Tons": 420.0,
+            "Fuel_Consumed_Liters": 140.0,
+            "Downtime_Minutes": 25.0,
+            "Weather_Condition": "Sunny",
+            "Road_Condition_Status": "Good",
+            "Equipment_Efficiency_Percent": 88.0,
+            "Fuel_Efficiency_Tons_per_Liter": 3.0,
+            "Incident_Report": 0.0,
+            "Maintenance_Required": 0.0,
+            "CO2_Emission_kg": 65.0,
+            "Production_Cost_USD": 21000.0,
+            "Revenue_USD": 28000.0
+        }
+    },
+    {
+        "Timestamp": "2025-12-07 00:20:13",
+        "Model": "weather",
+        "Prediction": "Safe",
+        "Probabilities": {
+            "Caution": 0.28,
+            "High Risk": 0.22,
+            "Safe": 0.5
+        },
+        "Inputs": {
+            "Temperature_C": 30.5,
+            "Humidity_Percent": 78.0,
+            "Rainfall_mm": 5.2,
+            "Wind_Speed_mps": 3.4,
+            "Wind_Direction_deg": 120.0,
+            "Visibility_km": 8.5,
+            "Pressure_hPa": 1010.0,
+            "Sea_State_Level": 2.0,
+            "Wave_Height_m": 1.2,
+            "Tide_Level_m": 0.6,
+            "Storm_Warning": 0.0,
+            "Weather_Condition": "Clear"
+        }
+    },
+    {
+        "Timestamp": "2025-12-07 00:20:14",
+        "Model": "road",
+        "Prediction": "Operational",
+        "Probabilities": {
+            "Closed": 0.32,
+            "Operational": 0.53,
+            "Severely Damaged": 0.15
+        },
+        "Inputs": {
+            "Surface_Type": "Asphalt",
+            "Surface_Condition": "Wet",
+            "Pothole_Density": 0.3,
+            "Slope_Angle_Degrees": 5.0,
+            "Traffic_Density": 0.7,
+            "Flood_Level_m": 0.1,
+            "Access_Status": "Open",
+            "Dust_Level_PPM": 45.0,
+            "Ground_Vibration_mm_s": 2.1,
+            "Road_Temperature_C": 35.0,
+            "Rainfall_mm": 4.5,
+            "Soil_Moisture_%": 35.0,
+            "Maintenance_Activity": 0.0,
+            "Accident_Count": 1.0
+        }
+    },
+    {
+        "Timestamp": "2025-12-07 00:20:14",
+        "Model": "equipment",
+        "Prediction": 0,
+        "Probabilities": {
+            "0": 0.88,
+            "1": 0.12
+        },
+        "Inputs": {
+            "Machine_Type": "Excavator",
+            "Engine_Temperature_C": 82.0,
+            "Oil_Pressure_Bar": 4.2,
+            "Fuel_Level_Percent": 65.0,
+            "Engine_RPM": 1800.0,
+            "Vibration_Level_g": 0.8,
+            "Hydraulic_Pressure_Bar": 210.0,
+            "Working_Hours": 6.5,
+            "Maintenance_Status": "OK",
+            "Fault_Code": 0.0,
+            "Operational_Mode": "Active",
+            "Ambient_Temperature_C": 32.0,
+            "Gear_Position": 3.0,
+            "Fuel_Consumption_L_h": 12.5,
+            "Torque_Nm": 450.0,
+            "Engine_Load_Percent": 78.0
+        }
+    },
+    {
+        "Timestamp": "2025-12-07 00:20:14",
+        "Model": "vessel",
+        "Prediction": "On Time",
+        "Probabilities": {
+            "Late": 0.35,
+            "On Time": 0.45,
+            "Weather Delay": 0.2
+        },
+        "Inputs": {
+            "Delay_Minutes": 15.0,
+            "Cargo_Type": 0.0,
+            "Load_Weight_Tons": 1200.0,
+            "Port_Condition": "Normal",
+            "Weather_Impact_Score": 0.6,
+            "Sea_Condition_Code": "Moderate",
+            "Crew_Availability_Percent": 95.0,
+            "Vessel_Status": 0.0,
+            "Fuel_Consumption_Tons": 20.5,
+            "Engine_RPM": 1600.0,
+            "Distance_Traveled_km": 320.0,
+            "Average_Speed_knots": 14.0,
+            "Departure_Hour": 8.0,
+            "Departure_Weekday": 3.0,
+            "Departure_Month": 11.0,
+            "Planned_Duration_hours": 10.0
+        }
+    },
+    {
+        "Timestamp": "2025-12-07 00:20:14",
+        "Model": "logistics",
+        "Prediction": "Low",
+        "Probabilities": {
+            "High": 0.23,
+            "Low": 0.43,
+            "Medium": 0.34
+        },
+        "Inputs": {
+            "Date": 0.0,
+            "Route_Code": 0.0,
+            "Origin_Location": 0.0,
+            "Destination_Location": 0.0,
+            "Cargo_Type": 0.0,
+            "Cargo_Weight_Tons": 35.0,
+            "Transport_Mode": "Truck",
+            "Distance_km": 470.0,
+            "Travel_Time_hr": 9.5,
+            "Actual_Travel_Time_hr": 10.2,
+            "Fuel_Used_Liters": 220.0,
+            "Fuel_Cost_USD": 180.0,
+            "Delivery_Status": "Completed",
+            "Delay_Cause": "Traffic",
+            "CO2_Emission_kg": 75.0
+        }
+    },
+    {
+        "Timestamp": "2025-12-07 00:20:14",
+        "Model": "production",
+        "Prediction": "Low",
+        "Probabilities": {
+            "High": 0.11,
+            "Low": 0.55,
+            "Medium": 0.34
+        },
+        "Inputs": {
+            "Record_Timestamp": 0.0,
+            "Production_ID": 0.0,
+            "Date": 0.0,
+            "Machine_ID": 0.0,
+            "Shift": "Morning",
+            "Operator_ID": 0.0,
+            "Material_Type": "Iron Ore",
+            "Working_Hours": 8.0,
+            "Production_Tons": 420.0,
+            "Fuel_Consumed_Liters": 140.0,
+            "Downtime_Minutes": 25.0,
+            "Weather_Condition": "Sunny",
+            "Road_Condition_Status": "Good",
+            "Equipment_Efficiency_Percent": 88.0,
+            "Fuel_Efficiency_Tons_per_Liter": 3.0,
+            "Incident_Report": 0.0,
+            "Maintenance_Required": 0.0,
+            "CO2_Emission_kg": 65.0,
+            "Production_Cost_USD": 21000.0,
+            "Revenue_USD": 28000.0
+        }
+    }
+]
