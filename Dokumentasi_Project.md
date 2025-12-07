@@ -1,18 +1,6 @@
-<head>
-  <meta charset="utf-8">
-  <title>Dokumentasi Project - Panduan Struktur & Cara Menjalankan</title>
-  <style>
-    body { font-family: -apple-system, Segoe UI, Roboto, Arial; line-height: 1.6; color:#222; padding: 16px; }
-    h2 { margin-top: 32px; }
-    pre { background:#f6f8fa; padding:12px; border-radius:6px; overflow-x:auto; }
-    table { border-collapse: collapse; width:100%; margin-top:12px; }
-    table, th, td { border:1px solid #ccc; padding:8px; }
-    th { background:#eee; }
-  </style>
-</head>
+
 
 <body>
-
 <h1>📘 Dokumentasi Struktur & Cara Menjalankan Project</h1>
 
 <!-- ===================== SECTION 1 ===================== -->
