@@ -26,7 +26,7 @@ PROJECTAPPLICATION/
 │
 ├── data/
 │
-├── Dataset_Raw_Data/
+├── Dataset_Raw_Data/ # Folder Wajib Di Buat
 │   ├── heavy_equipment_dataset.csv
 │   ├── logistics_dataset.csv
 │   ├── production_dataset.csv
