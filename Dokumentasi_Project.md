@@ -82,8 +82,8 @@ File <code>.pkl</code> model ML harus berada di folder <code>models/</code> agar
 <p>Isi minimal:</p>
 
 <pre>
+Gunakan Key API Gemini
 GEMINI_API_KEY=YOUR_KEY
-MODEL_PATH=models/model.pkl
 </pre>
 
 <p><strong>Tanpa file .env ini, ChatBox & prediksi tidak akan berjalan.</strong></p>
