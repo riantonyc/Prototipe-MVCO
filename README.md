@@ -145,17 +145,16 @@
   <!-- ===================== CARA KERJA SISTEM ======================= -->
   <h2>📌 3. Cara Kerja Sistem (Ringkas)</h2>
 
-  <ol>
-    <li><strong>Pengguna memberikan input</strong><br>
+<li><strong>Pengguna memberikan input</strong><br>
       Melalui CLI, API, atau ChatBox.</li>
 
-    <li><strong>Data masuk ke Processor → preprocessing</strong><br>
+<li><strong>Data masuk ke Processor → preprocessing</strong><br>
       <em>processor.py</em> membersihkan dan menyiapkan data untuk model ML.</li>
 
-    <li><strong>Model ML (Random Forest) melakukan prediksi</strong><br>
+<li><strong>Model ML (Random Forest) melakukan prediksi</strong><br>
       Diproses oleh <em>prediction_utils.py</em>.</li>
 
-    <li><strong>Hasil prediksi dikirim ke AI Recommender</strong><br>
+<li><strong>Hasil prediksi dikirim ke AI Recommender</strong><br>
       <em>ai_recommender.py</em> memproses:
       <ul>
         <li>hasil ML,</li>
@@ -164,10 +163,10 @@
       </ul>
     </li>
 
-    <li><strong>Hasil disimpan ke SaveJson</strong><br>
+<li><strong>Hasil disimpan ke SaveJson</strong><br>
       Melalui <em>storage.py</em>.</li>
 
-    <li><strong>Hasil ditinjau / ditampilkan</strong><br>
+<li><strong>Hasil ditinjau / ditampilkan</strong><br>
       <ul>
         <li>CLI → <em>app_cli.py</em></li>
         <li>API → <em>app.py</em></li>
@@ -176,8 +175,8 @@
       </ul>
     </li>
 
-    <li><strong>Notifikasi otomatis</strong><br>
+<li><strong>Notifikasi otomatis</strong><br>
       <em>email_generator.py</em> menghasilkan email keputusan.</li>
-  </ol>
+  
 
   <hr>
