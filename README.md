@@ -1,5 +1,5 @@
 <h1>Prototipe-MVCO</h1>
-<p> Model utama menggunakan algoritma Random Forest Classification untuk memprediksi kondisi operasional, mendeteksi potensi risiko,
+<p> Model utama menggunakan algoritma Random Forest Classification Dan Dataset Menggunakan Data Dummy untuk memprediksi kondisi operasional, mendeteksi potensi risiko,
       serta memberikan status keputusan yang akan diproses oleh AI Recommender. Hasil prediksi tersebut kemudian diperkaya dengan logika
       rekomendasi berbasis aturan, parameter operasional, serta reasoning LLM untuk menghasilkan output yang lebih akurat dan dapat diambil
       sebagai operational insights. </p>
@@ -11,7 +11,10 @@
       <li>Sistem Rekomendasi AI, yang menggabungkan hasil prediksi model ML dengan prompt-based reasoning dari Gemini.</li>
       <li>ChatBox AI, yang berfungsi sebagai asisten operasional untuk menjawab pertanyaan, menjelaskan alasan prediksi, dan memberikan keputusan berbasis kebijakan nilai rantai produksi (value chain optimization).</li>
     </ul>
+<hr>
+<h1>Link Dokumentasi Dataset dan Download</h1>
 
+[click di sini](https://docs.google.com/document/d/1bG1j4HuzU7JgEn9v-LXKGx2sbqiFmaEl/edit#heading=h.7dyz967zg2dk)
 
 
  <!-- ===================== FOLDER UTAMA ======================= -->
