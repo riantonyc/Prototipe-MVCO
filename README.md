@@ -1,11 +1,13 @@
-<!doctype html>
-<html lang="id">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Dokumentasi - Project Klasifikasi Operasional Tambang</title>
-  </head>
-  <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; line-height:1.6; color:#222; padding:24px;">
-    <p>proyek ini menggunakan model klasifikasi untuk menenetukan label pada 6 dataset operasional untuk membuat dan menyimpulkan suatu keadaan pada kegiatan operasional tambang data dataset dan penjelasan dapat di baca dan lihat pada link ini</p>
-  </body>
-</html>
+<h1>Prototipe-MVCO</h1>
+<p> Model utama menggunakan algoritma Random Forest Classification untuk memprediksi kondisi operasional, mendeteksi potensi risiko,
+      serta memberikan status keputusan yang akan diproses oleh AI Recommender. Hasil prediksi tersebut kemudian diperkaya dengan logika
+      rekomendasi berbasis aturan, parameter operasional, serta reasoning LLM untuk menghasilkan output yang lebih akurat dan dapat diambil
+      sebagai operational insights. </p>
+<p>Proyek ini mencakup:</p>
+    <ul>
+      <li>Pipeline preprocessing, termasuk normalisasi data, encoding, dan pembersihan dataset.</li>
+      <li>Training model Random Forest, evaluasi performa, serta penyimpanan model (format <code>.pkl</code>).</li>
+      <li>CLI Demo, yang memungkinkan pengguna menjalankan prediksi, menampilkan rekomendasi, dan menguji skenario operasional.</li>
+      <li>Sistem Rekomendasi AI, yang menggabungkan hasil prediksi model ML dengan prompt-based reasoning dari Gemini.</li>
+      <li>ChatBox AI, yang berfungsi sebagai asisten operasional untuk menjawab pertanyaan, menjelaskan alasan prediksi, dan memberikan keputusan berbasis kebijakan nilai rantai produksi (value chain optimization).</li>
+    </ul>
