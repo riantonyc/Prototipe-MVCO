@@ -111,13 +111,10 @@
     <thead><tr style="background:#f0f0f0"><th style="border:1px solid #ddd;padding:6px">Metrik</th><th style="border:1px solid #ddd;padding:6px">Status</th></tr></thead>
     <tbody>
       <tr><td style="border:1px solid #ddd;padding:6px">accuracy_score</td><td style="border:1px solid #ddd;padding:6px">✔ digunakan</td></tr>
-      <tr><td style="border:1px solid #ddd;padding:6px">classification_report</td><td style="border:1px solid #ddd;padding:6px">✔ digunakan</td></tr>
-      <tr><td style="border:1px solid #ddd;padding:6px">confusion_matrix</td><td style="border:1px solid #ddd;padding:6px">❌ belum</td></tr>
-      <tr><td style="border:1px solid #ddd;padding:6px">ROC-AUC</td><td style="border:1px solid #ddd;padding:6px">❌ belum</td></tr>
+      <tr><td style="border:1px solid #ddd;padding:6px">classification_report</td><td style="border:1px solid #ddd;padding:6px">✔ digunakan</td
     </tbody>
   </table>
 
-  <p><strong>Rekomendasi:</strong> tambahkan confusion matrix, ROC Curve, precision–recall curve, dan macro/micro weighted F1 untuk analisis lebih lengkap.</p>
 
   <hr>
 
