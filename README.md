@@ -12,8 +12,60 @@
       <li>ChatBox AI, yang berfungsi sebagai asisten operasional untuk menjawab pertanyaan, menjelaskan alasan prediksi, dan memberikan keputusan berbasis kebijakan nilai rantai produksi (value chain optimization).</li>
     </ul>
 
+
+
  <!-- ===================== FOLDER UTAMA ======================= -->
   <h2>📁 1. Folder Utama</h2>
+<pre style="background:#f6f8fa; padding:16px; border-radius:6px; font-size:14px; overflow-x:auto;">
+
+PROJECTAPPLICATION/
+├── __pycache__/
+│
+├── data/
+│
+├── Dataset_Raw_Data/
+│   ├── heavy_equipment_dataset.csv
+│   ├── logistics_dataset.csv
+│   ├── production_dataset.csv
+│   ├── road_condition_dataset.csv
+│   ├── vessel_schedule_dataset.csv
+│   ├── weather_dataset.csv
+│
+├── models/
+│   ├── model_equipment.pkl
+│   ├── model_logistics.pkl
+│   ├── model_production.pkl
+│   ├── model_road.pkl
+│   ├── model_vessel.pkl
+│   ├── model_weather.pkl
+│
+├── myenv/
+│
+├── notebook/
+│   └── Main_Model.ipynb
+│
+├── SaveJson/
+│   ├── prediction_log.json
+│   ├── recommendation_output.json
+│   └── reviews.json
+│
+├── .env
+├── .gitignore
+│
+├── ai_recommender.py
+├── app_cli.py
+├── app.py
+├── ChatBox.py
+├── email_generator.py
+├── main_entry.py
+├── prediction_utils.py
+├── processor.py
+├── requirements.txt
+├── review_manager.py
+├── status_manager.py
+└── storage.py
+
+</pre>
 
   <p><strong>data/</strong><br>
   Berisi data operasional mentah atau data input lain yang dipakai aplikasi (misalkan parameter harian, data produksi, dan lainnya).</p>
